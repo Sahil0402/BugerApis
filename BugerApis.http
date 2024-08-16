@@ -1,0 +1,6 @@
+@BugerApis_HostAddress = http://localhost:5204
+
+GET {{BugerApis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
