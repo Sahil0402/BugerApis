@@ -53,7 +53,7 @@ You can include snapshots of your web pages to give visual references. Place the
 ### Screenshots
  
 #### Login page
-![Homepage](assets/screenshots/login.png)
+![Login](./assets/screenshots/login.png)
 )
  
 #### Menu Page
