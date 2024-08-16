@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Darker text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.order {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fafafa; /* Light grey background for orders */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.order:hover {
+    background-color: #eaeaea; /* Darker grey on hover */
+}
+
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold; /* Bold text for order details */
+}
+
+.order-items {
+    margin-top: 15px; /* More space above order items */
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between items */
+    padding: 5px; /* Padding for item */
+    border: 1px solid #ddd; /* Light border around items */
+    border-radius: 4px; /* Rounded corners for items */
+    background-color: #fff; /* White background for items */
+    transition: transform 0.2s; /* Smooth scale transition */
+}
+
+.order-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+.order-item-name {
+    font-weight: bold; /* Bold name */
+}
+
+.order-item-price {
+    margin-left: auto; /* Push price to the right */
+    color: #555; /* Grey color for price */
+}
+
+.total-amount {
+    font-size: 1.2em; /* Larger font for total amount */
+    color: #d9534f; /* Bootstrap danger color for emphasis */
+    text-align: right; /* Right-align total amount */
+    margin-top: 15px; /* Space above total amount */
+}
+
+.order-date {
+    font-size: 0.9em; /* Smaller font for order date */
+    color: #777; /* Light grey for date */
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger shot</title>
+    <link rel="stylesheet" href="./assets/css/burgers.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./assets/images/burger.png" type="image/x-icon">
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Fira Sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h1 id="title">Our Menu</h1>
+        <section id="burgerListContainer">
+            <div class="text-and-order-history">
+                <span class="text-xl font-medium">Choose your burger</span>
+                <span class="text-lg orders w-32">
+                    <div>
+                        <img class="order-image" src="https://cdn-icons-png.flaticon.com/128/9425/9425742.png" alt="">
+                    </div>
+                    <a href="./orderspage.html">Your orders</a>
+                </span>
+            </div>
+            <div class="category flex justify-between w-60 mt-3">
+                <div class="popular">
+                    <img src="https://cdn-icons-png.flaticon.com/128/8722/8722283.png" alt="">
+                    <button class="category-button" id="Popular">Popular</button>
+                </div>
+                <div class="combos">
+                    <button class="category-button" id="Combos">Combos</button>
+                    <img src="https://cdn-icons-png.flaticon.com/128/11771/11771016.png" alt="">
+                </div>
+            </div>
+            <div class="burgers" id="burgers">
+                <div class="card-container">
+                    <img src="https://d37byfojjwz7vp.cloudfront.net/new_resize_420_20240620170701187878.png"
+                        alt="McChicken Burger">
+                    <div class="card">
+                        <div class="content">
+                            <span class="burger-title">McChicken Burger</span>
+                            <br>
+                            <span class="price">₹ 200</span>
+                            <div class="category-cart-button">
+                                <div class="buttons-container">
+                                    <button class="quantity-button"><img
+                                            src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/add.svg"
+                                            alt="" /></button>
+                                    <span class="quantity">2</span>
+                                    <button class="quantity-button"><img
+                                            src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/subtract.svg"
+                                            alt="" /></button>
+                                </div>
+                                <button class="add-to-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="cartButtonDiv">
+            <div class="cartButton" id="cartButtonL">
+                <img src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/cart-outline-1.svg"
+                    alt="" id="cartImage">
+                </button>
+                <span class="itemCount" id="itemCount">0</span>
+            </div>
+    </section>
+</body>
+<script type="module" src="./assets/scripts/burger-menu.js"></script>
+
+</html>
