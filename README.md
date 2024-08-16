@@ -53,15 +53,20 @@ You can include snapshots of your web pages to give visual references. Place the
 ### Screenshots
  
 #### Login page
-![Login](./assets/screenshots/login.png)
-)
+![Login](assets/screenshots/login.png)
  
 #### Menu Page
-![Menu](assets/images/menu.png)
- 
+![Menu](assets/screenshots/menu.png)
+
+#### Menu Page with item in cart
+![Menu](assets/screenshots/menu_2.png)
+
 #### Cart Page
-![Cart](assets/images/cart.png)
- 
+![Cart](assets/screenshots/cart.png)
+
+#### Order history Page
+![Cart](assets/screenshots/order_history.png)
+
 #### Order Confirmation
 ![Thank You](assets/images/thankyou.png)
 ```
