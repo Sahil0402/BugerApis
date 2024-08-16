@@ -1,10 +1,9 @@
 ### 1. Project Title
-**Burger Shot**
+### Burger Shot
  
 ### 2. Project Description
-Provide a brief description of your project. For example:
- 
-**Burger Shot** is a responsive web application for ordering burgers online. It allows users to browse the menu, add items to the cart, place orders, and receive a confirmation. The project includes various features like an interactive menu, a dynamic cart, and order management.
+
+**Burger Shot** is a web application for ordering burgers online. It allows users to browse the menu, add items to the cart, place orders, and receive a confirmation. The project includes various features like an interactive menu, a dynamic cart, and order management. This project was a part of training.
  
 ### 3. Folder Structure
 Outline the folder structure to give an overview of the project's organization:
@@ -22,15 +21,15 @@ Outline the folder structure to give an overview of the project's organization:
 ├── thanks.html        # Order confirmation/thank you page
 ```
  
-### 5. Usage
+### 4. Usage
 Explain how to navigate through the application:
-- **Homepage (`index.html`)**: The starting point with a welcoming interface.
+- **Login (`index.html`)**: The starting point with a welcoming interface.
 - **Menu (`burgers_menu.html`)**: Browse through the burger options.
 - **Cart (`cart.html`)**: Review your selected items and proceed to checkout.
 - **Order Page (`orderspage.html`)**: Manage and track your orders.
 - **Thank You Page (`thanks.html`)**: Displayed after a successful order.
  
-### 6. Snapshots
+### 5. Snapshots
 You can include snapshots of your web pages to give visual references. Place these snapshots in the `assets/images` directory and link them in the README.
  
 ### Screenshots
@@ -53,7 +52,7 @@ You can include snapshots of your web pages to give visual references. Place the
 #### Order Confirmation
 ![Thank You](assets/screenshots/thank_you.png)
  
-### 8. Technologies Used
+### 6. Technologies Used
 List the technologies and tools used in the project:
  
 - HTML5 & CSS3 for structure and styling.
