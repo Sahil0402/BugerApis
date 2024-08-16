@@ -22,24 +22,8 @@ Outline the folder structure to give an overview of the project's organization:
 ├── thanks.html        # Order confirmation/thank you page
 ```
  
-### 4. Installation and Setup
-Provide instructions on how to set up the project locally.
- 
-```markdown
-1. Clone the repository to your local machine:
-   ```bash
-git clone https://github.com/your-username/burger-shot.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd burger-shot
-   ```
-3. Open `index.html` in your web browser to get started.
-```
- 
 ### 5. Usage
 Explain how to navigate through the application:
- 
 - **Homepage (`index.html`)**: The starting point with a welcoming interface.
 - **Menu (`burgers_menu.html`)**: Browse through the burger options.
 - **Cart (`cart.html`)**: Review your selected items and proceed to checkout.
