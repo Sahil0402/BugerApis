@@ -52,8 +52,9 @@ You can include snapshots of your web pages to give visual references. Place the
 ```markdown
 ### Screenshots
  
-#### Homepage
-![Homepage](assets/images/homepage.png)
+#### Login page
+![Homepage](![image](https://github.com/user-attachments/assets/3ab16395-0cad-4eac-b49b-4a0c6115e1c6)
+)
  
 #### Menu Page
 ![Menu](assets/images/menu.png)
