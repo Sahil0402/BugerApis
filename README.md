@@ -33,7 +33,6 @@ Explain how to navigate through the application:
 ### 6. Snapshots
 You can include snapshots of your web pages to give visual references. Place these snapshots in the `assets/images` directory and link them in the README.
  
-```markdown
 ### Screenshots
  
 #### Login page
@@ -52,8 +51,7 @@ You can include snapshots of your web pages to give visual references. Place the
 ![Cart](assets/screenshots/order_history.png)
 
 #### Order Confirmation
-![Thank You](assets/images/thankyou.png)
-```
+![Thank You](assets/screenshots/thank_you.png)
  
 ### 8. Technologies Used
 List the technologies and tools used in the project:
